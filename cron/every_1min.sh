@@ -3,4 +3,4 @@
 # Terminate the script on first error.
 set -e
 
-echo "Hello from cron on `date`"
+echo "Hello from cron task on `date`"
