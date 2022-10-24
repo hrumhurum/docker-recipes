@@ -15,8 +15,6 @@ RUN apt-get install -y unzip
 # Install cron
 RUN apt-get install -y cron
 
-RUN apt-get install -y mc
-
 # Install Caddy (web server)
 RUN apt-get install -y debian-keyring debian-archive-keyring apt-transport-https
 RUN curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
