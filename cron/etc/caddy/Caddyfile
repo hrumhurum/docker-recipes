@@ -1,0 +1,10 @@
+:8080 {
+
+    handle_path /logs/* {
+        root * /app/var/log
+        file_server
+    }
+
+    root * /app/www
+    file_server
+}

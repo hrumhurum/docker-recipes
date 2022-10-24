@@ -1,0 +1,2 @@
+SHELL=/bin/sh
+* * * * * /app/every_1min.sh >> /app/var/log/cron.log 2>&1

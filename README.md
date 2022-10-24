@@ -10,7 +10,6 @@ You can use it to run your tasks according to a schedule.
 Cron is a relatively simple utility but configuring it on Docker can be a daunting task sometimes.
 Unless you have a [working cron sample](cron) at hand.
 
-
 ## Try a Sample Yourself
 
 You can use several approaches to run a specific sample:
@@ -19,5 +18,3 @@ You can use several approaches to run a specific sample:
 - Use a service that will do it for you in the cloud:
   - [Fly.io](https://fly.io/) (easiest)
   - [Google Cloud Run](https://cloud.google.com/run)
-
-
