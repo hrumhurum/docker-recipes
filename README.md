@@ -1,5 +1,4 @@
 # Docker Recipes
-Learn Docker by trying
 
 Docker allows you to run whatever you want but it is not always evident how to achieve a specific goal.
 This repository provides a few samples that you can use for educational and experimental purposes.
