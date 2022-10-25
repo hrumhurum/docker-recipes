@@ -30,8 +30,6 @@ FROM prerequisites AS publish
 
 EXPOSE 8080
 
-ENV HOME=/root
-
 COPY etc/crontab /app/etc/crontab
 COPY every_1min.sh /app/every_1min.sh
 
