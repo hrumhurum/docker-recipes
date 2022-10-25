@@ -13,4 +13,4 @@ This sample demonstrates how to install, configure, and use `cron` command-line 
 
 To verify that `cron` is running, you should take a look at cron log file located at `/app/var/log/cron.log`.
 It should have a new line appended every minute or so.
-The web interface of the sample app allows to access the log file by clicking a corresponding link.
+The web interface of the sample app allows you to access the log file just by clicking a corresponding link.
