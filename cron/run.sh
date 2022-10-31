@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Terminate the script on first error.
+# Terminate the script on a first error.
 set -eu
 
 # Create directory for logs.
