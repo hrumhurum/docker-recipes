@@ -1,7 +1,6 @@
 #!/bin/sh
 
-# Terminate the script on a first error.
-# Disallow unbound variables.
+# Terminate the script on a first error, disallow unbound variables.
 set -eu
 
 # Create directory for logs.
