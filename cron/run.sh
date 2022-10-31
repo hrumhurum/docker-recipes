@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Terminate the script on first error.
-set -e
+set -eu
 
 # Create directory for logs.
 mkdir -p /app/var/log

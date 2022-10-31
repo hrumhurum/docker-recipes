@@ -44,5 +44,4 @@ COPY run.sh /app/run.sh
 
 FROM publish AS run
 
-WORKDIR /app
-CMD ./run.sh
+CMD /app/run.sh
