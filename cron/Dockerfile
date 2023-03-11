@@ -32,11 +32,13 @@ EXPOSE 8080
 
 COPY etc/crontab /app/etc/crontab
 COPY every_1min.sh /app/every_1min.sh
+RUN chmod +x /app/every_1min.sh
 
 COPY etc/caddy /app/etc/caddy
 COPY www /app/www
 
 COPY run.sh /app/run.sh
+RUN chmod +x /app/run.sh
 
 ###############################################################################
 # Run
