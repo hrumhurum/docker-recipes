@@ -1,14 +1,16 @@
-# Cron Sample for Docker
+# Docker Cron Sample
 
 ## Overview
+The cron command-line utility is a job scheduler for Unix operating systems.
+It allows you to run tasks automatically based on a set schedule.
 
-`cron` command-line utility is a job scheduler on Unix-like operating systems.
-You can use it to run your tasks according to a schedule.
-Cron is a relatively simple tool but configuring it for Docker can be a daunting task sometimes.
-Unless you have a working sample at hand. This project demonstrates how to install, configure, and use `cron` command-line utility inside a Docker image.
+While cron itself is straightforward, setting it up inside a Docker container can sometimes be tricky — unless you have a working example to guide you.
+This project shows you how to install, configure, and run cron inside a Docker image.
 
-## Let's Check It
+## Verifying It's Working
 
-To verify that the `cron` is running, you should take a look at cron log file located at `/app/var/log/cron.log`.
-It should have a new line appended every minute or so.
-The web interface of the sample app allows you to access the log file by clicking a corresponding link.
+To check that cron is running correctly, look at the log file located at `/app/var/log/cron.log`.
+You should see a new line added roughly every minute.
+
+The sample app includes a web interface with a link that lets you view this log file easily.
+
