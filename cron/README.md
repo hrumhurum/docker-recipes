@@ -12,5 +12,5 @@ This project shows you how to install, configure, and run cron inside a Docker i
 To check that cron is running correctly, look at the log file located at `/app/var/log/cron.log`.
 You should see a new line added roughly every minute.
 
-The sample app includes a web interface with a link that lets you view this log file easily.
+The sample app includes a web interface with a link that lets you view this log file easily via web browser.
 
