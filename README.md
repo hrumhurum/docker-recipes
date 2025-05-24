@@ -1,15 +1,18 @@
 # Docker Recipes
 
-Docker allows you to run whatever you want but it is not always evident how to achieve a specific goal.
-This repository provides a few samples that you can use for educational and experimental purposes:
+Docker gives you the flexibility to run almost anything, but figuring out how to achieve a specific goal isn’t always straightforward.
 
-* [cron](cron) - job scheduler on Unix-like operating systems
+This repository offers a collection of practical examples you can use for your benefit.
 
-## Try a Sample Yourself
+## Examples
 
-You can use several approaches to run a specific sample:
+* [cron](cron) - shows how to setup and use cron job scheduler in a Docker image ([What is cron?](https://en.wikipedia.org/wiki/Cron))
 
-- Run Docker on your machine
-- Use a service that will do it for you in the cloud:
+## Try It Yourself
+
+There are a few ways to run one of the samples:
+
+- Run locally using Docker on your machine
+- Deploy it to a cloud service:
   - [Fly.io](https://fly.io/) (easiest)
   - [Google Cloud Run](https://cloud.google.com/run)
